@@ -1,0 +1,395 @@
+CompileCommand: exclude com/intellij/openapi/vfs/impl/FilePartNodeRoot.trieDescend bool exclude = true
+2024-06-04 20:44:17,159 [    851]   WARN - #c.i.c.ComponentStoreImpl - Duplicated scheme Light - old: Light, new Light
+2024-06-04 20:44:17,559 [   1251]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-06-04 20:44:17,590 [   1282]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-06-04 20:44:17,771 [   1463]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-06-04 20:44:17,777 [   1469]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+2024-06-04 20:44:17,783 [   1475]   WARN - #c.i.e.t.TargetBasedSdks - SDK target configuration data is absent
+Info  | RdCoroutineScope          | 19:DefaultDispatcher-worker-8 | RdCoroutineHost overridden 
+2024-06-04 20:44:22,038 [   5730]   WARN - #c.i.o.v.i.l.FileWatcher - PyCharm cannot receive filesystem event notifications for the project. Is it on a network drive?
+2024-06-04 20:44:22,159 [   5851]   WARN - #c.i.i.s.p.i.BundledSharedIndexPostStartupActivity - Skipped 1 pre-built shared indexes: bundled-js-predefined-1d06a55b98c1-8314e18161f9-JavaScript-PY-232.9559.58
+2024-06-04 20:44:23,253 [   6945]   WARN - #git4idea.repo.GitUntrackedFilesHolder - detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/mopo'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/mopo
+com.intellij.openapi.vcs.VcsException: detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/mopo'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/mopo
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:156)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:145)
+	at git4idea.index.GitIndexStatusUtilKt.getFileStatus(GitIndexStatusUtil.kt:83)
+	at git4idea.repo.GitUntrackedFilesHolder.refreshFiles(GitUntrackedFilesHolder.java:351)
+	at git4idea.repo.GitUntrackedFilesHolder.update(GitUntrackedFilesHolder.java:249)
+	at com.intellij.util.ui.update.DisposableUpdate$1.doRun(DisposableUpdate.java:31)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:360)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:338)
+	at com.intellij.util.ui.update.DisposableUpdate.run(DisposableUpdate.java:19)
+	at com.intellij.util.ui.update.Update.runUpdate(Update.java:114)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:348)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:338)
+	at com.intellij.util.ui.update.MergingUpdateQueue.doFlush(MergingUpdateQueue.java:295)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:277)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:246)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:254)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:373)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:360)
+	at com.intellij.util.concurrency.Propagation.contextAwareCallable$lambda$2(propagation.kt:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:272)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:31)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:227)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:215)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-06-04 20:44:23,373 [   7065]   WARN - #git4idea.repo.GitUntrackedFilesHolder - detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/romi'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/romi
+com.intellij.openapi.vcs.VcsException: detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/romi'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/romi
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:156)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:145)
+	at git4idea.index.GitIndexStatusUtilKt.getFileStatus(GitIndexStatusUtil.kt:83)
+	at git4idea.repo.GitUntrackedFilesHolder.refreshFiles(GitUntrackedFilesHolder.java:351)
+	at git4idea.repo.GitUntrackedFilesHolder.update(GitUntrackedFilesHolder.java:249)
+	at com.intellij.util.ui.update.DisposableUpdate$1.doRun(DisposableUpdate.java:31)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:360)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:338)
+	at com.intellij.util.ui.update.DisposableUpdate.run(DisposableUpdate.java:19)
+	at com.intellij.util.ui.update.Update.runUpdate(Update.java:114)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:348)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:338)
+	at com.intellij.util.ui.update.MergingUpdateQueue.doFlush(MergingUpdateQueue.java:295)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:277)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:246)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:254)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:373)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:360)
+	at com.intellij.util.concurrency.Propagation.contextAwareCallable$lambda$2(propagation.kt:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:272)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:31)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:227)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:215)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-06-04 20:44:23,400 [   7092]   WARN - #git4idea.annotate.GitAnnotationProvider - detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/mopo'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/mopo
+com.intellij.openapi.vcs.VcsException: detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/mopo'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/mopo
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:156)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:145)
+	at git4idea.history.GitHistoryUtils.getCurrentRevision(GitHistoryUtils.java:199)
+	at git4idea.annotate.GitAnnotationProvider.getLastRevision(GitAnnotationProvider.java:508)
+	at git4idea.annotate.GitAnnotationProvider.getPathAndRevision(GitAnnotationProvider.java:489)
+	at git4idea.annotate.GitAnnotationProvider.populateCache(GitAnnotationProvider.java:459)
+	at com.intellij.openapi.vcs.annotate.AnnotationsPreloader$schedulePreloading$1.doRun(AnnotationsPreloader.kt:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:360)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:338)
+	at com.intellij.util.ui.update.DisposableUpdate.run(DisposableUpdate.java:19)
+	at com.intellij.util.ui.update.Update.runUpdate(Update.java:114)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:348)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:338)
+	at com.intellij.util.ui.update.MergingUpdateQueue.doFlush(MergingUpdateQueue.java:295)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:277)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:246)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:254)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:373)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:360)
+	at com.intellij.util.concurrency.Propagation.contextAwareCallable$lambda$2(propagation.kt:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:272)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:31)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:227)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:215)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-06-04 20:44:23,679 [   7371]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: setsid /usr/bin/git -c core.quotepath=false -c log.showSignature=false config --null --get user.email
+2024-06-04 20:44:23,708 [   7400]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: setsid /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false log --pretty=format:%x01%x01%H%x02%x02%P%x02%x02%ct%x02%x02%an%x02%x02%ae%x02%x02%d%x03%x03 --encoding=UTF-8 --decorate=full HEAD --branches --remotes --tags --date-order --
+2024-06-04 20:44:23,786 [   7478]   WARN - #git4idea.repo.GitUntrackedFilesHolder - detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/slbo'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/slbo
+com.intellij.openapi.vcs.VcsException: detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/slbo'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/slbo
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:156)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:145)
+	at git4idea.index.GitIndexStatusUtilKt.getFileStatus(GitIndexStatusUtil.kt:83)
+	at git4idea.repo.GitUntrackedFilesHolder.refreshFiles(GitUntrackedFilesHolder.java:351)
+	at git4idea.repo.GitUntrackedFilesHolder.update(GitUntrackedFilesHolder.java:249)
+	at com.intellij.util.ui.update.DisposableUpdate$1.doRun(DisposableUpdate.java:31)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:360)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:338)
+	at com.intellij.util.ui.update.DisposableUpdate.run(DisposableUpdate.java:19)
+	at com.intellij.util.ui.update.Update.runUpdate(Update.java:114)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:348)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:338)
+	at com.intellij.util.ui.update.MergingUpdateQueue.doFlush(MergingUpdateQueue.java:295)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:277)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:246)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:254)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:373)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:360)
+	at com.intellij.util.concurrency.Propagation.contextAwareCallable$lambda$2(propagation.kt:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:272)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:31)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:227)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:215)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-06-04 20:44:29,086 [  12778]   WARN - #c.j.p.s.s.PySkeletonRefresher - Some skeletons failed to generate
+2024-06-04 20:44:29,087 [  12779]   WARN - #c.j.p.s.s.PySkeletonRefresher - scipy.optimize._lsap_
+2024-06-04 20:44:29,088 [  12780]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.compiler.tf2xla.ops._xla_ops
+2024-06-04 20:44:29,088 [  12780]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.bigtable.python.ops._bigtable
+2024-06-04 20:44:29,088 [  12780]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.boosted_trees.python.ops._boosted_trees_ops
+2024-06-04 20:44:29,089 [  12781]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.factorization.python.ops._factorization_ops
+2024-06-04 20:44:29,090 [  12782]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.ffmpeg.ffmpeg
+2024-06-04 20:44:29,090 [  12782]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.framework.python.ops._variable_ops
+2024-06-04 20:44:29,091 [  12783]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.fused_conv.python.ops._fused_conv2d_bias_activation_op
+2024-06-04 20:44:29,091 [  12783]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.hadoop._dataset_ops
+2024-06-04 20:44:29,092 [  12784]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.ignite._ignite_ops
+2024-06-04 20:44:29,092 [  12784]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._distort_image_ops
+2024-06-04 20:44:29,093 [  12785]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._image_ops
+2024-06-04 20:44:29,093 [  12785]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._single_image_random_dot_stereograms
+2024-06-04 20:44:29,093 [  12785]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.input_pipeline.python.ops._input_pipeline_ops
+2024-06-04 20:44:29,093 [  12785]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.kafka._dataset_ops
+2024-06-04 20:44:29,094 [  12786]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.kinesis._dataset_ops
+2024-06-04 20:44:29,094 [  12786]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.layers.python.ops._sparse_feature_cross_op
+2024-06-04 20:44:29,094 [  12786]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.libsvm.python.ops._libsvm_ops
+2024-06-04 20:44:29,095 [  12787]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.memory_stats.python.ops._memory_stats_ops
+2024-06-04 20:44:29,095 [  12787]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.nearest_neighbor.python.ops._nearest_neighbor_ops
+2024-06-04 20:44:29,095 [  12787]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.periodic_resample.python.ops._periodic_resample_op
+2024-06-04 20:44:29,095 [  12787]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.reduce_slice_ops.python.ops._reduce_slice_ops
+2024-06-04 20:44:29,096 [  12788]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.resampler.python.ops._resampler_ops
+2024-06-04 20:44:29,096 [  12788]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.rpc.python.kernel_tests.libtestexample
+2024-06-04 20:44:29,097 [  12789]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.seq2seq.python.ops._beam_search_ops
+2024-06-04 20:44:29,097 [  12789]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.hybrid.python.ops._training_ops
+2024-06-04 20:44:29,097 [  12789]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.libforestprotos
+2024-06-04 20:44:29,098 [  12790]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._model_ops
+2024-06-04 20:44:29,098 [  12790]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._stats_ops
+2024-06-04 20:44:29,098 [  12790]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._tensor_forest_ops
+2024-06-04 20:44:29,099 [  12791]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.text.python.ops._skip_gram_ops
+2024-06-04 20:44:29,099 [  12791]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.lite.experimental.microfrontend.python.ops._audio_microfrontend_op
+2024-06-04 20:44:52,792 [  36484]   WARN - #c.i.w.p.InstalledPackagesPanel - Cannot refresh the list of available packages with their latest versions
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:551)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:533)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:638)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:619)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:361)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:369)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:387)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:381)
+	at com.jetbrains.python.packaging.PyPIPackageUtil.lambda$parsePyPIListFromWeb$7(PyPIPackageUtil.java:352)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:524)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:506)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:335)
+	at com.jetbrains.python.packaging.PyPIPackageUtil.parsePyPIListFromWeb(PyPIPackageUtil.java:350)
+	at com.jetbrains.python.packaging.pip.PypiPackageCache$refresh$2.invokeSuspend(PypiPackageCache.kt:88)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:100)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2024-06-04 20:47:17,586 [ 181278]   WARN - #c.i.o.o.e.ConfigurableCardPanel - auto-dispose 'Python Interpreter' id=com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable
+2024-06-04 20:47:18,541 [ 182233]   WARN - #c.i.u.x.Binding - no accessors for com.intellij.openapi.projectRoots.Sdk
+2024-06-04 20:47:18,569 [ 182261]   WARN - #c.i.u.x.Binding - no accessors for java.time.LocalTime
+2024-06-04 20:49:27,868 [ 311560]   WARN - #git4idea.annotate.GitAnnotationProvider - detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/romi'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/romi
+com.intellij.openapi.vcs.VcsException: detected dubious ownership in repository at '/mnt/f/Ubuntu/TF_work/romi'
+To add an exception for this directory, call:
+
+git config --global --add safe.directory /mnt/f/Ubuntu/TF_work/romi
+	at git4idea.commands.GitCommandResult.throwOnError(GitCommandResult.java:156)
+	at git4idea.commands.GitCommandResult.getOutputOrThrow(GitCommandResult.java:145)
+	at git4idea.history.GitHistoryUtils.getCurrentRevision(GitHistoryUtils.java:199)
+	at git4idea.annotate.GitAnnotationProvider.getLastRevision(GitAnnotationProvider.java:508)
+	at git4idea.annotate.GitAnnotationProvider.getPathAndRevision(GitAnnotationProvider.java:489)
+	at git4idea.annotate.GitAnnotationProvider.populateCache(GitAnnotationProvider.java:459)
+	at com.intellij.openapi.vcs.annotate.AnnotationsPreloader$schedulePreloading$1.doRun(AnnotationsPreloader.kt:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:186)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:604)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:679)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:635)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:603)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:173)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:360)
+	at com.intellij.openapi.progress.util.BackgroundTaskUtil.runUnderDisposeAwareIndicator(BackgroundTaskUtil.java:338)
+	at com.intellij.util.ui.update.DisposableUpdate.run(DisposableUpdate.java:19)
+	at com.intellij.util.ui.update.Update.runUpdate(Update.java:114)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:348)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:338)
+	at com.intellij.util.ui.update.MergingUpdateQueue.doFlush(MergingUpdateQueue.java:295)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:277)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:246)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:254)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:373)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:360)
+	at com.intellij.util.concurrency.Propagation.contextAwareCallable$lambda$2(propagation.kt:328)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:272)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:31)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:227)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:218)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:215)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:702)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:699)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:699)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-06-04 20:56:04,644 [ 708336]   WARN - #c.j.p.s.s.PySkeletonRefresher - Some skeletons failed to generate
+2024-06-04 20:56:04,644 [ 708336]   WARN - #c.j.p.s.s.PySkeletonRefresher - scipy.optimize._lsap_
+2024-06-04 20:56:04,645 [ 708337]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.compiler.tf2xla.ops._xla_ops
+2024-06-04 20:56:04,645 [ 708337]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.bigtable.python.ops._bigtable
+2024-06-04 20:56:04,645 [ 708337]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.boosted_trees.python.ops._boosted_trees_ops
+2024-06-04 20:56:04,645 [ 708337]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.factorization.python.ops._factorization_ops
+2024-06-04 20:56:04,646 [ 708338]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.ffmpeg.ffmpeg
+2024-06-04 20:56:04,646 [ 708338]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.framework.python.ops._variable_ops
+2024-06-04 20:56:04,646 [ 708338]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.fused_conv.python.ops._fused_conv2d_bias_activation_op
+2024-06-04 20:56:04,646 [ 708338]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.hadoop._dataset_ops
+2024-06-04 20:56:04,646 [ 708338]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.ignite._ignite_ops
+2024-06-04 20:56:04,646 [ 708338]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._distort_image_ops
+2024-06-04 20:56:04,647 [ 708339]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._image_ops
+2024-06-04 20:56:04,647 [ 708339]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._single_image_random_dot_stereograms
+2024-06-04 20:56:04,647 [ 708339]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.input_pipeline.python.ops._input_pipeline_ops
+2024-06-04 20:56:04,647 [ 708339]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.kafka._dataset_ops
+2024-06-04 20:56:04,647 [ 708339]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.kinesis._dataset_ops
+2024-06-04 20:56:04,648 [ 708340]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.layers.python.ops._sparse_feature_cross_op
+2024-06-04 20:56:04,648 [ 708340]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.libsvm.python.ops._libsvm_ops
+2024-06-04 20:56:04,648 [ 708340]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.memory_stats.python.ops._memory_stats_ops
+2024-06-04 20:56:04,648 [ 708340]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.nearest_neighbor.python.ops._nearest_neighbor_ops
+2024-06-04 20:56:04,648 [ 708340]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.periodic_resample.python.ops._periodic_resample_op
+2024-06-04 20:56:04,648 [ 708340]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.reduce_slice_ops.python.ops._reduce_slice_ops
+2024-06-04 20:56:04,649 [ 708341]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.resampler.python.ops._resampler_ops
+2024-06-04 20:56:04,649 [ 708341]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.rpc.python.kernel_tests.libtestexample
+2024-06-04 20:56:04,649 [ 708341]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.seq2seq.python.ops._beam_search_ops
+2024-06-04 20:56:04,649 [ 708341]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.hybrid.python.ops._training_ops
+2024-06-04 20:56:04,649 [ 708341]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.libforestprotos
+2024-06-04 20:56:04,650 [ 708342]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._model_ops
+2024-06-04 20:56:04,650 [ 708342]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._stats_ops
+2024-06-04 20:56:04,650 [ 708342]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._tensor_forest_ops
+2024-06-04 20:56:04,650 [ 708342]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.text.python.ops._skip_gram_ops
+2024-06-04 20:56:04,650 [ 708342]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.lite.experimental.microfrontend.python.ops._audio_microfrontend_op
+2024-06-04 20:56:56,947 [ 760639]   WARN - #c.j.p.s.s.PySkeletonRefresher - Some skeletons failed to generate
+2024-06-04 20:56:56,947 [ 760639]   WARN - #c.j.p.s.s.PySkeletonRefresher - scipy.optimize._lsap_
+2024-06-04 20:56:56,949 [ 760641]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.compiler.tf2xla.ops._xla_ops
+2024-06-04 20:56:56,953 [ 760645]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.bigtable.python.ops._bigtable
+2024-06-04 20:56:56,954 [ 760646]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.boosted_trees.python.ops._boosted_trees_ops
+2024-06-04 20:56:56,956 [ 760648]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.factorization.python.ops._factorization_ops
+2024-06-04 20:56:56,960 [ 760652]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.ffmpeg.ffmpeg
+2024-06-04 20:56:56,961 [ 760653]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.framework.python.ops._variable_ops
+2024-06-04 20:56:56,961 [ 760653]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.fused_conv.python.ops._fused_conv2d_bias_activation_op
+2024-06-04 20:56:56,962 [ 760654]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.hadoop._dataset_ops
+2024-06-04 20:56:56,962 [ 760654]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.ignite._ignite_ops
+2024-06-04 20:56:56,962 [ 760654]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._distort_image_ops
+2024-06-04 20:56:56,962 [ 760654]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._image_ops
+2024-06-04 20:56:56,963 [ 760655]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.image.python.ops._single_image_random_dot_stereograms
+2024-06-04 20:56:56,963 [ 760655]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.input_pipeline.python.ops._input_pipeline_ops
+2024-06-04 20:56:56,963 [ 760655]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.kafka._dataset_ops
+2024-06-04 20:56:56,963 [ 760655]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.kinesis._dataset_ops
+2024-06-04 20:56:56,964 [ 760656]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.layers.python.ops._sparse_feature_cross_op
+2024-06-04 20:56:56,964 [ 760656]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.libsvm.python.ops._libsvm_ops
+2024-06-04 20:56:56,965 [ 760657]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.memory_stats.python.ops._memory_stats_ops
+2024-06-04 20:56:56,965 [ 760657]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.nearest_neighbor.python.ops._nearest_neighbor_ops
+2024-06-04 20:56:56,965 [ 760657]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.periodic_resample.python.ops._periodic_resample_op
+2024-06-04 20:56:56,965 [ 760657]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.reduce_slice_ops.python.ops._reduce_slice_ops
+2024-06-04 20:56:56,967 [ 760659]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.resampler.python.ops._resampler_ops
+2024-06-04 20:56:56,967 [ 760659]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.rpc.python.kernel_tests.libtestexample
+2024-06-04 20:56:56,968 [ 760660]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.seq2seq.python.ops._beam_search_ops
+2024-06-04 20:56:56,968 [ 760660]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.hybrid.python.ops._training_ops
+2024-06-04 20:56:56,968 [ 760660]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.libforestprotos
+2024-06-04 20:56:56,969 [ 760661]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._model_ops
+2024-06-04 20:56:56,969 [ 760661]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._stats_ops
+2024-06-04 20:56:56,970 [ 760662]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.tensor_forest.python.ops._tensor_forest_ops
+2024-06-04 20:56:56,970 [ 760662]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.contrib.text.python.ops._skip_gram_ops
+2024-06-04 20:56:56,970 [ 760662]   WARN - #c.j.p.s.s.PySkeletonRefresher - tensorflow_core.lite.experimental.microfrontend.python.ops._audio_microfrontend_op
